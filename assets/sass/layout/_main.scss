@@ -20,10 +20,22 @@ img {
 }
 
 .main__noticia-derecha {
-    margin: 15px 30px 30px 30px;
+    margin: 15px 30px 30px 30px;    
+}
 
-    @include respond-to('sm') {
+@media screen and (max-width: 980px){
+    .main__noticia-derecha {
         display: none;
     }
-    
 }
+
+.newsletter {
+    width: 100%;
+}
+
+/* @include respond-to('sm') {
+    .main__noticia-derecha {
+        display: none;
+    }
+}
+ */
