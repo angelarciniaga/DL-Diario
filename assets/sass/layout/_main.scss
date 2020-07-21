@@ -1,0 +1,29 @@
+.main {
+    border-bottom: 1px solid gray;
+    
+}
+
+.main__noticia {
+    @include relative-converter(margin, rem, 20, 16);
+
+}
+
+.newsletter {
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.main__noticia-derecha {
+    margin: 15px 30px 30px 30px;
+
+    @include respond-to('sm') {
+        display: none;
+    }
+    
+}

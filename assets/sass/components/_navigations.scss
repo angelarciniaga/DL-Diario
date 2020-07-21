@@ -1,0 +1,22 @@
+.navigation__logo {
+   display: flex;
+   align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navigation__item a {    
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.input-menu {
+    border-radius: 30px;
+}

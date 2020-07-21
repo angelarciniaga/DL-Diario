@@ -1,0 +1,20 @@
+$breakpoints: (
+  'sm': (min-width: 576px),
+  'md': (min-width: 768px),
+  'lg': (min-width: 992px),
+  'xl': (min-width: 1200px),
+);
+
+
+//Font Family
+$roboto-mono: 'Roboto Mono', monospace;
+$ubuntu-mono: 'Ubuntu Mono', monospace;
+
+// Font Weight
+$regular: 400;
+$bold: 700;
+
+// Font Sizes
+$large: 30;
+$medium: 20;
+$small: 14;

@@ -1,0 +1,23 @@
+.navigation__logo {
+    font-family: $roboto-mono;
+    font-weight: $bold;
+    @include relative-converter(font-size, rem, $large, 16);
+}
+
+.navigation__item {
+    font-family: $ubuntu-mono;
+    font-weight: $bold;
+    @include relative-converter(font-size, rem, $medium, 16);
+}
+
+h1, h2 {
+    font-family: $ubuntu-mono;
+    font-weight: $bold;
+    @include relative-converter(font-size, rem, $medium, 16);
+}
+
+p, li, h4 {
+    font-family: $ubuntu-mono;
+    font-weight: $regular;
+    @include relative-converter(font-size, rem, $small, 16);
+}
