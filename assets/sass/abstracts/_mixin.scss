@@ -15,7 +15,7 @@
       @error 'No value found for `#{$breakpoint}`. '
            + 'Please make sure it is defined in `$breakpoints` map.';
     }
-  }
+}
 
 // Transforma px en rem
 @mixin relative-converter($property, $unit, $target, $context) {

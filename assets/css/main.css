@@ -369,14 +369,14 @@ img {
   list-style-type: none;
 }
 
-.main__tags-button {
+.main__tags-button a {
   text-decoration: none;
   color: white;
   padding: 10px;
   margin: 0 5px 0 5px;
   background-color: steelblue;
 }
-.main__tags-button:hover {
+.main__tags-button a:hover {
   color: black;
   padding: 9px;
   border: 1px solid black;
@@ -388,11 +388,10 @@ img {
   border-bottom: 1px solid gray;
 }
 
-.newletter__input {
-  padding: 5px;
-  border: none;
-}
-
+/* .newletter__input {
+    padding: 5px;
+    border: none;
+} */
 .newsletter__button--suscribete {
   border: none;
   padding: 5px;
@@ -422,13 +421,22 @@ img {
   color: black;
   padding: 10px;
   text-transform: uppercase;
+  text-align: right;
 }
 
-@media screen and (max-width: 980px) {
+.nosotros {
+  display: none;
+}
+@media (min-width: 768px) {
   .nosotros {
-    display: none;
+    display: block;
   }
 }
+
+/* @media screen and (max-width: 980px) {
+    .nosotros{
+        display: none;        }
+} */
 .input-menu {
   border-radius: 30px;
 }
